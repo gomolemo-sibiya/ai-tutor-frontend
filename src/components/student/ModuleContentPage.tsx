@@ -98,11 +98,6 @@ export const ModuleContentPage: React.FC<ModuleContentPageProps> = ({
         </button>
 
         <div className="flex items-center space-x-4 mb-6">
-          <div className="w-16 h-16 bg-gradient-to-br from-[#00A3FF] to-[#0066FF] rounded-lg flex items-center justify-center">
-            <span className="text-white font-bold text-lg">
-              {module.moduleCode.substring(0, 2)}
-            </span>
-          </div>
           <div>
             <h1 className="text-gray-900 text-3xl font-bold mb-2">
               {module.title}
